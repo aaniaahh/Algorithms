@@ -14,7 +14,7 @@ designed to trigger multiple rotations, including single and double rotations. T
 causing an imbalance with a balance factor of +2.
 
 ### Given
-```css
+```plaintext
      A
     /
    B
@@ -22,18 +22,19 @@ causing an imbalance with a balance factor of +2.
  C 
 ```
 ### After the Rotation
-```css
+```plaintext
      B
     / \
    C   A
   
 ```
 
+
 - **Left-Right Rotation:** Occurs when a node is inserted into the right subtree of the left child, 
 causing an imbalance with a balance factor of +2.
 
 ### Given
-```css
+```plaintext
      A
     /
    B
@@ -41,7 +42,7 @@ causing an imbalance with a balance factor of +2.
      C 
 ```
 ### The Left Rotation
-```css
+```plaintext
      A
     /
    C
@@ -50,18 +51,19 @@ causing an imbalance with a balance factor of +2.
 ```
 
 ### The Right Rotation
-```css
+```plaintext
      C
     / \
    B   A
   
 ```
 
+
 - **Right-Left Rotation:** Occurs when a node is inserted into the left subtree of the right child, 
 causing an imbalance with a balance factor of -2.
 
 ### Given
-```css
+```plaintext
      A
       \
        B
@@ -70,7 +72,7 @@ causing an imbalance with a balance factor of -2.
 ```
 
 ### The Right Rotation
-```css
+```plaintext
      A
       \
        C
@@ -79,18 +81,19 @@ causing an imbalance with a balance factor of -2.
 ```
 
 ### The Left Rotation
-```css
+```plaintext
      C
     / \
    A   B
   
 ```
 
+
 - **Right-Right Rotation:** Occurs when a node is inserted into the right subtree of the right child,
  causing an imbalance with a balance factor of -2.
 
  ### Given
-```css
+```plaintext
      A
       \
        B
@@ -99,11 +102,12 @@ causing an imbalance with a balance factor of -2.
 ```
 
 ### After the Rotation
-```css
+```plaintext
      B
     / \
    A   C
 ```
+
 
 # Examples:
 
