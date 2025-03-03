@@ -57,7 +57,7 @@ causing an imbalance with a balance factor of +2.
    B   A
   
 ```
-
+---------------------------------------------------------------------------------------
 
 - **Right-Left Rotation:** Occurs when a node is inserted into the left subtree of the right child, 
 causing an imbalance with a balance factor of -2.
@@ -87,7 +87,7 @@ causing an imbalance with a balance factor of -2.
    A   B
   
 ```
-
+---------------------------------------------------------------------------------------
 
 - **Right-Right Rotation:** Occurs when a node is inserted into the right subtree of the right child,
  causing an imbalance with a balance factor of -2.
@@ -108,6 +108,7 @@ causing an imbalance with a balance factor of -2.
    A   C
 ```
 
+---------------------------------------------------------------------------------------
 
 # Examples:
 
