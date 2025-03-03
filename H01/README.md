@@ -28,7 +28,7 @@ causing an imbalance with a balance factor of +2.
    C   A
   
 ```
-
+---------------------------------------------------------------------------------------
 
 - **Left-Right Rotation:** Occurs when a node is inserted into the right subtree of the left child, 
 causing an imbalance with a balance factor of +2.
