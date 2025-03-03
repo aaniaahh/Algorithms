@@ -14,7 +14,7 @@ This example will be performing Left-Right and Right-Left Rotations.
 - Insert the following values in order:
 10, 20, 30, 15, 25, 5, 35, 27
 
-Answer Key [here]()
+Steps and Answer Key [here]()
 
 ## Set 2
 This example will be performing Multiple Rotations in Different Branches.
@@ -22,10 +22,12 @@ This example will be performing Multiple Rotations in Different Branches.
 - Insert the following values in order:
 50, 40, 45, 60, 55, 70, 35, 30, 65, 75, 43
 
-Answer Key [here]()
+Steps and Answer Key [here]()
 
 ## Set 3
 This example will be performing Alternating Insertions Causing Frequent Rebalancing.
 
 - Insert the following values in order:
 100, 90, 110, 80, 95, 85, 105, 120, 102, 108
+
+Steps and Answer Key [here]()
