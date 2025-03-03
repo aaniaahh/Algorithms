@@ -8,6 +8,15 @@ I will insert a sequence of integers into an AVL tree and analyze the rebalancin
 - Identify and perform the necessary rotations to maintain AVL balance.
 - Document the final tree structure.
 
+## Types of Rotations
+- **Left-Left Rotation:** Occurs when a node is inserted into the left subtree of the left child, causing an imbalance with a balance factor of +2.
+
+- **Left-Right Rotation:** Occurs when a node is inserted into the right subtree of the left child, causing an imbalance with a balance factor of +2.
+
+- **Right-Left Rotation:** Occurs when a node is inserted into the left subtree of the right child, causing an imbalance with a balance factor of -2.
+
+- **Right-Right Rotation:** Occurs when a node is inserted into the right subtree of the right child, causing an imbalance with a balance factor of -2.
+
 ## Set 1
 This example will be performing Left-Right and Right-Left Rotations.
 
