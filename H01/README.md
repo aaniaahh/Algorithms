@@ -11,8 +11,6 @@ designed to trigger multiple rotations, including single and double rotations. T
 
 ## Type of Rotations:
 
-# Type of Rotations:
-
 - **Left-Left Rotation:** Occurs when a node is inserted into the left subtree of the left child, 
 causing an imbalance with a balance factor of +2.
 
@@ -123,7 +121,7 @@ on the right child, followed by a left rotation on the unbalanced node.
 
 -------------------------------------------------------------------------------------
 
-# Examples:
+# Set of Examples:
 
 ## Set 1
 This example will be performing Left-Right and Right-Left Rotations.
