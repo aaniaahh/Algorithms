@@ -1,0 +1,3 @@
+## Insert the following values in order:
+10, 20, 30, 15, 25, 5, 35, 27
+
