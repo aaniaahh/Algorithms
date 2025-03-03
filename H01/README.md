@@ -13,6 +13,7 @@ designed to trigger multiple rotations, including single and double rotations. T
 - **Left-Left Rotation:** Occurs when a node is inserted into the left subtree of the left child, 
 causing an imbalance with a balance factor of +2.
 
+### Given
 ```css
      A
     /
@@ -20,15 +21,91 @@ causing an imbalance with a balance factor of +2.
   /
  C 
 ```
+### After the Rotation
+```css
+     B
+    / \
+   C   A
+  
+```
 
 - **Left-Right Rotation:** Occurs when a node is inserted into the right subtree of the left child, 
 causing an imbalance with a balance factor of +2.
 
+### Given
+```css
+     A
+    /
+   B
+    \
+     C 
+```
+### The Left Rotation
+```css
+     A
+    /
+   C
+  /
+ B 
+```
+
+### The Right Rotation
+```css
+     C
+    / \
+   B   A
+  
+```
+
 - **Right-Left Rotation:** Occurs when a node is inserted into the left subtree of the right child, 
 causing an imbalance with a balance factor of -2.
 
+### Given
+```css
+     A
+      \
+       B
+       /
+      C 
+```
+
+### The Right Rotation
+```css
+     A
+      \
+       C
+        \
+         B
+```
+
+### The Left Rotation
+```css
+     C
+    / \
+   A   B
+  
+```
+
 - **Right-Right Rotation:** Occurs when a node is inserted into the right subtree of the right child,
  causing an imbalance with a balance factor of -2.
+
+ ### Given
+```css
+     A
+      \
+       B
+        \
+         C 
+```
+
+### After the Rotation
+```css
+     B
+    / \
+   A   C
+```
+
+# Examples:
 
 ## Set 1
 This example will be performing Left-Right and Right-Left Rotations.
