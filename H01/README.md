@@ -13,6 +13,8 @@ designed to trigger multiple rotations, including single and double rotations. T
 - **Left-Left Rotation:** Occurs when a node is inserted into the left subtree of the left child, 
 causing an imbalance with a balance factor of +2.
 
+Soultion: Perform a **single right rotation**.
+
 ### Given
 ```plaintext
      A
@@ -33,6 +35,9 @@ causing an imbalance with a balance factor of +2.
 - **Left-Right Rotation:** Occurs when a node is inserted into the right subtree of the left child, 
 causing an imbalance with a balance factor of +2.
 
+Soultion: Perform a **double rotation** by starting with a left rotation 
+on the left child, followed by a right rotation on the unbalanced node.
+
 ### Given
 ```plaintext
      A
@@ -41,7 +46,7 @@ causing an imbalance with a balance factor of +2.
     \
      C 
 ```
-### The Left Rotation
+### First the Left Rotation
 ```plaintext
      A
     /
@@ -50,7 +55,7 @@ causing an imbalance with a balance factor of +2.
  B 
 ```
 
-### The Right Rotation
+### Then the Right Rotation
 ```plaintext
      C
     / \
@@ -62,16 +67,19 @@ causing an imbalance with a balance factor of +2.
 - **Right-Left Rotation:** Occurs when a node is inserted into the left subtree of the right child, 
 causing an imbalance with a balance factor of -2.
 
+Soultion: Perform a **double rotation** by starting with a right rotation 
+on the right child, followed by a left rotation on the unbalanced node.
+
 ### Given
 ```plaintext
      A
       \
        B
-       /
-      C 
+      /
+     C 
 ```
 
-### The Right Rotation
+### First the Right Rotation
 ```plaintext
      A
       \
@@ -80,7 +88,7 @@ causing an imbalance with a balance factor of -2.
          B
 ```
 
-### The Left Rotation
+### Then the Left Rotation
 ```plaintext
      C
     / \
@@ -91,6 +99,8 @@ causing an imbalance with a balance factor of -2.
 
 - **Right-Right Rotation:** Occurs when a node is inserted into the right subtree of the right child,
  causing an imbalance with a balance factor of -2.
+
+ Soultion: Perform a **single left rotation**.
 
  ### Given
 ```plaintext
