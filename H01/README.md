@@ -1,7 +1,8 @@
 # Homework 1 - Insertions with Multiple Rotations
 
 ## Overview
-I will insert a sequence of integers into an AVL tree and analyze the rebalancing process. Each sequence is designed to trigger multiple rotations, including single and double rotations. The task is to:
+I will insert a sequence of integers into an AVL tree and analyze the rebalancing process. Each sequence is 
+designed to trigger multiple rotations, including single and double rotations. The task is to:
 
 - Construct the AVL tree for each set of values (by drawing it).
 - Determine where imbalances occur.
@@ -9,13 +10,25 @@ I will insert a sequence of integers into an AVL tree and analyze the rebalancin
 - Document the final tree structure.
 
 ## Types of Rotations
-- **Left-Left Rotation:** Occurs when a node is inserted into the left subtree of the left child, causing an imbalance with a balance factor of +2.
+- **Left-Left Rotation:** Occurs when a node is inserted into the left subtree of the left child, 
+causing an imbalance with a balance factor of +2.
 
-- **Left-Right Rotation:** Occurs when a node is inserted into the right subtree of the left child, causing an imbalance with a balance factor of +2.
+```css
+     A
+    /
+   B
+  /
+ C 
+```
 
-- **Right-Left Rotation:** Occurs when a node is inserted into the left subtree of the right child, causing an imbalance with a balance factor of -2.
+- **Left-Right Rotation:** Occurs when a node is inserted into the right subtree of the left child, 
+causing an imbalance with a balance factor of +2.
 
-- **Right-Right Rotation:** Occurs when a node is inserted into the right subtree of the right child, causing an imbalance with a balance factor of -2.
+- **Right-Left Rotation:** Occurs when a node is inserted into the left subtree of the right child, 
+causing an imbalance with a balance factor of -2.
+
+- **Right-Right Rotation:** Occurs when a node is inserted into the right subtree of the right child,
+ causing an imbalance with a balance factor of -2.
 
 ## Set 1
 This example will be performing Left-Right and Right-Left Rotations.
