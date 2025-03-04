@@ -148,3 +148,5 @@ Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H01
 <img src= "./images/set11_cropped.png" width="200">
 
 ![](./images/set11_cropped.png)
+
+<img src= "./images/set12.png" width="200">
