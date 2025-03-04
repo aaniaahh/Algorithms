@@ -146,3 +146,5 @@ Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H01
 
 
 <img src=./images/set11.png width=500>
+
+[](./images/set11.png)
