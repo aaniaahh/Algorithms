@@ -1,15 +1,18 @@
 ## Insert the following values in order:
 10, 20, 30, 15, 25, 5, 35, 27
 
- **Remember to check for imbalanced branches** 
 ------------------------------------------------------------------------------------
-### Insert 10, 20, 30
+### Insert 10
 
 - Insert 10 into the empty tree; *the root*
+
+## Insert 20
 
 - 20 is greater than 10, so 20 is the right child of 10 
 
   - Balance factor of 10: 0 - 1 = -1 ; *no rotation needed*
+
+## Insert 30
 
 - 30 is greater than 10 and 20, so 30 is the right child of 20
 
@@ -17,7 +20,7 @@
 
 <img src= "./images/set11.png" width="200">
 
-Notice the unbalanced tree so a Right-Right Rotation will be performed:
+##
 
 <img src= "./images/set12.png" width="200">
 
