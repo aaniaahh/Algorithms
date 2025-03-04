@@ -10,13 +10,13 @@
 
 - 20 is greater than 10, so 20 is the right child of 10 
 
- - Balance factor of 10: 0 - 1 = -1 ; *no rotation needed*
+  - Balance factor of 10: 0 - 1 = -1 ; *no rotation needed*
 
 ## Insert 30
 
 - 30 is greater than 10 and 20, so 30 is the right child of 20
 
- - Balance factor of 10: 0 - 2 = -2 ; *left rotation needed*
+  - Balance factor of 10: 0 - 2 = -2 ; *left rotation needed*
 
 <img src= "./images/set11.png" width="200">
 
