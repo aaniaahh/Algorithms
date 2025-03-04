@@ -145,6 +145,6 @@ Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H01
 
 
 
-<img src= "./images/set11_cropped.png" width="500">
+<img src= "./images/set11_cropped.png" width="200">
 
-[](./images/set11_cropped.png)
+![](./images/set11_cropped.png)
