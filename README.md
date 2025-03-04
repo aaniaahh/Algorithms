@@ -22,15 +22,11 @@ a basic Binary Search Tree aka *BST*.
  - Complexity
  
  - Linked List Types
- 
- - Singly Linked List
- 
- - Doubly Linked List
-
- - Circular List
+   - Singly Linked List
+   - Doubly Linked List
+   - Circular List
  
  - Stack, Queue, Priority Queue, Deque
- 
  
  - Array Based Binary Search
  
@@ -51,8 +47,11 @@ a basic Binary Search Tree aka *BST*.
  - Hash Tables
  
  - Graphs
-
- - Shortest Path
+  - Basic Graph Algorithms
+  - Depth-First Search
+  - Breadth-First Search
+  - Minimum Spanning Trees
+  - Shortest Path
 
  - Sorting:
    - O(n^2)
