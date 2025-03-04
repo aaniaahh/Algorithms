@@ -143,10 +143,3 @@ This example will be performing Alternating Insertions Causing Frequent Rebalanc
 
 Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H01/set3.md)
 
-
-
-<img src= "./images/set11_cropped.png" width="200">
-
-![](./images/set11_cropped.png)
-
-<img src= "./images/set12.png" width="200">

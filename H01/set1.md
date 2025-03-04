@@ -10,11 +10,11 @@
 
 - Insert 30 as 20's right child 
 
-// insert set11.png here
+<img src= "./images/set11.png" width="200">
 
 **Notice the unbalanced tree** so a Right-Right Rotation will be performed:
 
-// insert set12.png here
+<img src= "./images/set12.png" width="200">
 
 ### Insert 15
 
@@ -27,5 +27,7 @@
 - Insert 35 as 20's right child
 
 - Insert 27 as 25's right child
+
+<img src= "./images/set13.png" width="200">
 
 
