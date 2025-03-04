@@ -32,17 +32,19 @@ a basic Binary Search Tree aka *BST*.
  
  - Binary Tree's
  
- - Binary Heap (Array Based)
+ - Binary Heap 
+   - Array Based
  
- - Fibonacci Heap (Possibly)
+ - Fibonacci Heap
  
- - Binary Tree Implementation (List Based)
+ - Binary Tree Implementation 
+   - List Based
  
  - Trie
  
  - Balanced Tree's
    - AVL
-   - Red Black (Possibly)
+   - Red Black
  
  - Hash Tables
  
