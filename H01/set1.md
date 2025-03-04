@@ -4,7 +4,7 @@
 ------------------------------------------------------------------------------------
 ## Insert 10
 
-- Insert 10 into the empty tree; *the root*
+- Insert 10 into the empty tree ; *the root*
 
 ## Insert 20
 
@@ -16,7 +16,7 @@
 
 - 30 is greater than 10 and 20, so 30 is the right child of 20
 
-  - Balance factor of 10: 0 - 2 = -2 ; *left rotation needed*
+  - Balance factor of 10: 0 - 2 = -2 ; *left rotation at 20 needed*
 
 <img src= "./images/set11.png" width="200">
 
@@ -24,17 +24,34 @@
 
 <img src= "./images/set12.png" width="200">
 
-### Insert 15, 25, 5, 35, 27
+## Insert 15
+- 15 is less than 20, so 15 is the left child of 20
+  
+  - Balance factor of 20: 1 - 1 = 0 ; *no rotation needed*
 
-- Insert 15 as 10's right child
+## Insert 25
 
-- Insert 25 as 20's left child
+- 25 is more than 20 and less than 30, so 25 is the left child of 30
 
-- Insert 5 as 10's left child
+  - Balance factor of 20: 1 - 2 = -1 ; *no rotation needed*
 
-- Insert 35 as 20's right child
+## Insert 5
 
-- Insert 27 as 25's right child
+- 5 is less than 20 and 10, so 5 is the left child of 10
+
+  - Balance factor of 20: 2 - 2 = 0 ; *no rotation needed*
+
+## Insert 35
+
+- 35 is more than 20 and 30, so 35 is the right child of 20
+
+  - Balance factor of 20: 2 - 3 = -1 ; *no rotation needed*
+
+## Insert 27
+
+- 27 is more than 20 and 25, so 27 is the right child of 25
+
+  - Balance factor of 30: 1 - 2 = -1 ; *no rotation needed* 
 
 <img src= "./images/set13.png" width="200">
 
@@ -44,6 +61,8 @@
 
 <img src= "./images/set14.png" width="200">
 
-Notice the unbalanced tree so a Right-Right Rotation will be performed:
+- Balance factor of 30: 2 - 0 = 2 ; *right rotation at 30 needed*
+
+### After the Rotation
 
 <img src= "./images/set15.png" width="200">
