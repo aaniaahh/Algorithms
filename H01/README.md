@@ -142,3 +142,7 @@ This example will be performing Alternating Insertions Causing Frequent Rebalanc
 100, 90, 110, 80, 95, 85, 105, 120, 102, 108
 
 Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H01/set3.md)
+
+
+
+<img src=./images/set11.png width=500>
