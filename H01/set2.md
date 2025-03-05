@@ -28,7 +28,7 @@
 
 ## Insert 60
  - 60 is greater than 45 and 50, so 60 is the right child of 50
-  - Balance factor of 45: 1 - 1 = 0 ; *no rotation needed*
+   - Balance factor of 45: 1 - 1 = 0 ; *no rotation needed*
 
 ## Insert 55
 ## Insert 70
