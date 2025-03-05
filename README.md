@@ -43,7 +43,7 @@ a basic Binary Search Tree aka *BST*.
  - Trie
  
  - Balanced Tree's
-   - AVL
+   - [AVL](https://github.com/aaniaahh/Algorithms/tree/main/H01) 
    - Red Black
  
  - Hash Tables
