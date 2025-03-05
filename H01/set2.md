@@ -28,7 +28,15 @@
    - Balance factor of 45: 1 - 1 = 0 ; *no rotation needed*
 
 ## Insert 55
+- 55 is great than 45 and 50, but less than 60, so 50 is the left child of 60
+   - Balance factor of 45: 0 - 1 = -1 ; *no rotation needed*
+   - Balance factor of 50: 1 - 2 = -1 ; *no rotation needed*
+
 ## Insert 70
+- 70 is greater than 45, 50, and 60, so 70 is the right child of 60
+   - Balance factor of 50: 0 - 2 = -2 *right-right rotation needed*
+
+### After the   
 <img src= "./images/set24.png" width="200">
 <img src= "./images/set25.png" width="200">
 <img src= "./images/set26.png" width="200">

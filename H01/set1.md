@@ -17,7 +17,7 @@
 
 <img src= "./images/set11.png" width="200">
 
-### After the Rotation
+### After the RR Rotation
 <img src= "./images/set12.png" width="200">
 
 ## Insert 15
@@ -54,5 +54,5 @@
 
 - Balance factor of 30: 2 - 0 = 2 ; *right rotation at 30 needed*
 
-### After the Rotation
+### After the LL Rotation
 <img src= "./images/set15.png" width="200">
