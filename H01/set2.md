@@ -3,16 +3,13 @@
 
 ------------------------------------------------------------------------------------
 ## Insert 50
-
 - Insert 50 into the empty tree ; *the root*
 
 ## Insert 40
-
 - 40 is less than 50, so 40 is the left child of 50 
   - Balance factor of 50: 1 - 0 = 1 ; *no rotation needed*
 
 ## Insert 45
-
 - 45 is less than 50 and greater than 40, so 45 is the left child of 40
   - Balance factor of 50: 2 - 0 = 2 ; *left-right rotation needed*
 
