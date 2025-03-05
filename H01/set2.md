@@ -69,4 +69,4 @@
    - Balance factor of 35: 1 - 1 = 0 ; *no rotation needed*
    - Balance factor of 45: 2 - 2 = 0 ; *no rotation needed*  
 
-<img src= "./images/set28.png" width="200">
+<img src= "./images/set28.png" width="300">
