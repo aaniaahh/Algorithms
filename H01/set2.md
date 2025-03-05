@@ -34,10 +34,12 @@
 
 ## Insert 70
 - 70 is greater than 45, 50, and 60, so 70 is the right child of 60
-   - Balance factor of 50: 0 - 2 = -2 *right-right rotation needed*
+   - Balance factor of 50: 0 - 2 = -2 *left rotation at 50 needed*
 
-### After the   
 <img src= "./images/set24.png" width="200">
+
+### After the LL Rotations
+
 <img src= "./images/set25.png" width="200">
 <img src= "./images/set26.png" width="200">
 <img src= "./images/set27.png" width="200">
