@@ -9,7 +9,7 @@ called a **hash**.
 - **Collision:** When a hash function returns the same key for multiple distinct input items. 
   - *The goal is to avoid this, but it is mostly unavoidable*
 
-- **Collision Resolution:** A way of handling collisions. 
+- [**Collision Resolution:**](https://github.com/aaniaahh/Algorithms/blob/main/H02/colliresol.md) A way of handling collisions. 
   - **Open (chaining)** places the hashed value in a list **pointed to** by the hash table
   - **Closed (open addressing)** places the hashed value **in** the hash table
 
