@@ -10,10 +10,10 @@ called a **hash**.
   - *The goal is to avoid this, but it is mostly unavoidable*
 
 - [**Collision Resolution:**](https://github.com/aaniaahh/Algorithms/blob/main/H02/colliresol.md) A way of handling collisions. 
-  - **Open (chaining)** places the hashed value in a list **pointed to** by the hash table
-  - **Closed (open addressing)** places the hashed value **in** the hash table
+  - **Open (chaining)** places the hashed value in a list **pointed to** by the hash table.
+  - **Closed (open addressing)** places the hashed value **in** the hash table.
 
-- **Hash Function:** A function *H* that receives some input *x*, and turns it into an integr value *i*. The returned integer value can be adjusted to fit an array by using modulus.
+- **Hash Function:** A function *H* that receives some input *x*, and turns it into an integer value *i*. The returned integer value can be adjusted to fit an array by using modulus.
   - *H(x) = i % array_size*
 
 - **Hash Table:** An array which keys are mapped to array positions by a hash function
