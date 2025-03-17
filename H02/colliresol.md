@@ -23,7 +23,9 @@ hash value.
   - Sequence increases quadratically: (h(K) + i^2)mod m
 
 ### Double Hashing
-- Resolves by searching the table for an empty place at intervals given by different hash functions
+- Resolves by searching the table for an empty place at intervals given by different hash functions.
   - *thus minimizing clustering*
-
+- The computed hash value should change for every collision in the probe sequence.
+  - Continuously hash to the same location does **NOT** happen.
+  
 ### Pseudo Random Probing
