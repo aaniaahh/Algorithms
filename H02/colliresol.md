@@ -2,8 +2,7 @@
 Below will provide more details on Collision Resolution
 
 ## Open (Chaining) Resolution
-- If no list exist, it creates one.
-- If one does exist, it adds it ot the end.
+- If no list exist, it creates one. If one does exist, it adds it ot the end.
 
 ### Direct Chaining
 - A resolution which the hash table is an array of links to lists. Each list holds all the items with the same
