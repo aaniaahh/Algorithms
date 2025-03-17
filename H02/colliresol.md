@@ -16,9 +16,14 @@ hash value.
   - Using a **probe sequence** to find the next open slot.
 
 ### Linear Probing
+- Resolves by looking at **every slot** until it finds the next available (empty) location.
 
 ### Quadratic Probing
+- Resolves by finding an avaiable (empty) slot as the distance increases due to occupied slots.
+  - Sequence increases quadratically: (h(K) + i^2)mod m
 
 ### Double Hashing
+- Resolves by searching the table for an empty place at intervals given by different hash functions
+  - *thus minimizing clustering*
 
 ### Pseudo Random Probing
