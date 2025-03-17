@@ -10,15 +10,15 @@ called a **hash**.
   - *The goal is to avoid this, but it is mostly unavoidable*
 
 - **Collision Resolution:** A way of handling collisions. 
-  - Open (chaining):
-  - Closed (open addressing):
+  - **Open (chaining)** places the hashed value in a list **pointed to** by the hash table
+  - **Closed (open addressing)** places the hashed value **in** the hash table
 
 - **Hash Function:** A function *H* that receives some input *x*, and turns it into an integr value *i*. The returned integer value can be adjusted to fit an array by using modulus.
   - *H(x) = i % array_size*
 
 - **Hash Table:** An array which keys are mapped to array positions by a hash function
 
--**Key:** The value returned by a hash function *aka an array index*, and in some contexts this value must be unique.
+- **Key:** The value returned by a hash function *aka an array index*, and in some contexts this value must be unique.
 
 - **Load Factor:** The number of elements in a hash table divided by the number of slots. 
   - Usually denoted as "α" alpha.  
