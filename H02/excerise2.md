@@ -1,7 +1,7 @@
 ## Exercise 2: Closed Hashing (Open Addressing)
 **May be harder to view with dark mode!!**
 
-**5, 22, 17, 18, 35, 101, 16, 0, 8**
+Given the following set of keys: **5, 22, 17, 18, 35, 101, 16, 0, 8**
 
 - Initially create a hash table with size 10:
 <img src= "./images/21.png" width="200">
