@@ -43,7 +43,7 @@ Given the following set of keys:
 
   v. Identify any buckets with collisions and note how many elements are stored in each.
 
-Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/excerise1.md)
+Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/exercise1.md)
 
 ### Exercise 2: Closed Hashing (Open Addressing)
 Using the same set of keys:
@@ -62,4 +62,4 @@ Using the same set of keys:
 
   v. Discuss any clustering effects you observe.
 
-Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/excerise2.md)
+Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/exercise2.md)
