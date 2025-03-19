@@ -22,17 +22,15 @@ Given the following set of keys: **5, 22, 17, 18, 35, 101, 16, 0, 8**
 <img src= "./images/25.png" width="200">
 
 - 35 mod 10 = 5
-  - index 5 is occupied so the next index available is 6
-  - place 35 into the index 6  
+  - index 5 is occupied so 35 added to the linked list at index 5
 <img src= "./images/16.png" width="200">
 
 - 101 mod 10 = 1
   - place 101 into the index 1
 <img src= "./images/17.png" width="200">
 
-- 16 mod 10 = 6
-  - index 6, 7, and 8 is occupied so the next index available is 9 
-  - place 16 into the index 9  
+- 16 mod 10 = 6 
+  - place 16 into the index 6  
 <img src= "./images/18.png" width="200">
 
 - 0 mod 10 = 0
@@ -40,6 +38,5 @@ Given the following set of keys: **5, 22, 17, 18, 35, 101, 16, 0, 8**
 <img src= "./images/19.png" width="200">
 
 - 8 mod 10 = 8
-  - index 8, 9, 0, 1, and 2 are occupied so the next index available is 3
-  - place 8 into the index 3
+- index 8 is occupied so 8 added to the linked list at index 8
 <img src= "./images/final.png" width="200">
