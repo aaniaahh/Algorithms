@@ -1,4 +1,5 @@
 ## Exercise 2: Closed Hashing (Open Addressing)
+**May be harder to view with dark mode!!**
 
 **5, 22, 17, 18, 35, 101, 16, 0, 8**
 
