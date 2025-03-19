@@ -27,9 +27,7 @@ called a **hash**.
 
 ## Examples
 ### Exercise 1: Open Hashing (Separate Chaining)
-Given the following set of keys:
-
-5, 22, 17, 18, 35, 101, 16, 0, 8
+Given the following set of keys: 5, 22, 17, 18, 35, 101, 16, 0, 8
 
 - Task:
 
@@ -46,9 +44,7 @@ Given the following set of keys:
 Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/exercise1.md)
 
 ### Exercise 2: Closed Hashing (Open Addressing)
-Using the same set of keys:
-
-5, 22, 17, 18, 35, 101, 16, 0, 8
+Given the following set of keys: 5, 22, 17, 18, 35, 101, 16, 0, 8
 
 - Task:
 
@@ -63,3 +59,6 @@ Using the same set of keys:
   v. Discuss any clustering effects you observe.
 
 Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/exercise2.md)
+
+### Exercise 3: Impact of Poor Table Sizes
+Given the following set of keys: 5, 10, 15, 20, 25, 30, 35, 40
