@@ -29,7 +29,7 @@ called a **hash**.
 ### Exercise 1: Open Hashing (Separate Chaining)
 Given the following set of keys:
 
-5,22,17,18,35,101,16,0,8
+5, 22, 17, 18, 35, 101, 16, 0, 8
 
 - Task:
 i. Assume a hash table size of 10.
@@ -38,10 +38,10 @@ iii. Insert the keys in the given order using separate chaining (each table slot
 iv. Draw a diagram showing the hash table buckets and the contents of each bucket after all insertions.
 v. Identify any buckets with collisions and note how many elements are stored in each.
 
-### Exercise 1: Closed Hashing (Open Addressing)
+### Exercise 2: Closed Hashing (Open Addressing)
 Using the same set of keys:
 
-5,22,17,18,35,101,16,0,8
+5, 22, 17, 18, 35, 101, 16, 0, 8
 
 - Task:
 i. Assume a hash table size of 10.
