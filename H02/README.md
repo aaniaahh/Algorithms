@@ -38,6 +38,8 @@ iii. Insert the keys in the given order using separate chaining (each table slot
 iv. Draw a diagram showing the hash table buckets and the contents of each bucket after all insertions.
 v. Identify any buckets with collisions and note how many elements are stored in each.
 
+Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/excerise1.md)
+
 ### Exercise 2: Closed Hashing (Open Addressing)
 Using the same set of keys:
 
@@ -49,3 +51,5 @@ ii. Use the same hash function: h(k) = k mod 10.
 iii. Insert the keys in the given order using linear probing for collision resolution.
 iv. Draw a diagram of the hash table showing the index positions and the key stored at each index.
 v. Discuss any clustering effects you observe.
+
+Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/excerise2.md)
