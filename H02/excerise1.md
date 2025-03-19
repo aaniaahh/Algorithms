@@ -1,4 +1,5 @@
 ## Exercise 1: Open Hashing (Separate Chaining)
+**May be harder to view with dark mode!!**
 
 Given the following set of keys: **5, 22, 17, 18, 35, 101, 16, 0, 8**
 
