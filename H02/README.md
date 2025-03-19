@@ -24,3 +24,28 @@ called a **hash**.
   - Usually denoted as "α" alpha.  
 
 - **Perfect Hashing:** Every input items gets a perfectly unique key.
+
+## Examples
+### Exercise 1: Open Hashing (Separate Chaining)
+Given the following set of keys:
+
+5,22,17,18,35,101,16,0,8
+
+- Task:
+i. Assume a hash table size of 10.
+ii. Use the division method hash function: h(k) = k mod 10.
+iii. Insert the keys in the given order using separate chaining (each table slot holds a linked list of entries).
+iv. Draw a diagram showing the hash table buckets and the contents of each bucket after all insertions.
+v. Identify any buckets with collisions and note how many elements are stored in each.
+
+### Exercise 1: Closed Hashing (Open Addressing)
+Using the same set of keys:
+
+5,22,17,18,35,101,16,0,8
+
+- Task:
+i. Assume a hash table size of 10.
+ii. Use the same hash function: h(k) = k mod 10.
+iii. Insert the keys in the given order using linear probing for collision resolution.
+iv. Draw a diagram of the hash table showing the index positions and the key stored at each index.
+v. Discuss any clustering effects you observe.
