@@ -64,6 +64,7 @@ Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02
 Given the following set of keys: 5, 10, 15, 20, 25, 30, 35, 40
 
 - Task:
+
   i. Simulate insertion using the division method with a table size of 10 and then with a table 
   size of 11 (a prime number).
 
