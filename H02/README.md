@@ -71,3 +71,5 @@ Given the following set of keys: 5, 10, 15, 20, 25, 30, 35, 40
   ii. For each scenario, draw the resulting hash table (choose either open or closed addressing for consistency).
 
   iii. Compare the distribution of keys and discuss which table size appears to offer a more uniform distribution and why.
+
+  Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/exercise3.md)
