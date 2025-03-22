@@ -62,3 +62,10 @@ Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02
 
 ### Exercise 3: Impact of Poor Table Sizes
 Given the following set of keys: 5, 10, 15, 20, 25, 30, 35, 40
+
+- Task:
+  i. Simulate insertion using the division method with a table size of 10 and then with a table 
+  size of 11 (a prime number).
+
+  ii. For each scenario, draw the resulting hash table (choose either open or closed addressing for consistency).
+  iv. Compare the distribution of keys and discuss which table size appears to offer a more uniform distribution and why.
