@@ -14,8 +14,9 @@ You will need
 - Red Pen
 - Black Pen
 
-Things to look out for:
-- Possible Recoloring
+Violations to look out for:
+- Possible recoloring
+- All leafs must be black
 - Root must always be black
 - Possible Left and Right Rotations
 - Red child always under Black Parent

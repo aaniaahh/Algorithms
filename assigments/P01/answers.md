@@ -26,7 +26,8 @@ Let R = Red and B = Black
    15(R)  25(R)
 ```
 
-- Both children are red so recolor 15 and 25 to black
+- Leafs are red? VIOLATION!
+- Recolor 15 and 25 to black
 - Recolor 20 to red
 
 ```plaintext
@@ -35,7 +36,8 @@ Let R = Red and B = Black
    15(B)  25(B)
 ```
 
-- Root is always black so recolor 20 back to black.
+- Root is red? VIOLATION!
+- Recolor 20 back to black.
 
 ```plaintext
       20(B)
@@ -55,7 +57,66 @@ Let R = Red and B = Black
 ```
 
 ### Insert 5
+- 5 < 10, so insert as 10's red left child
+
+```plaintext
+            20(B)
+           /    \
+         15(B)  25(B)
+         /
+       10(R) 
+       /
+     5(R)
+```
+
+- Heavy Left? Left Rotation
+
+```plaintext
+            20(B)
+           /    \
+         10(R)  25(B) 
+         /  \
+      5(R)  15(B)
+```
+
+- Red Child with Red Parent? VIOLATION
+  - Recolor 10 to black
+  - Recolor 15 to red
+  
+```plaintext
+            20(B)
+           /    \
+         10(B)  25(B) 
+         /  \
+      5(R)  15(R)
+```
+
 ### Insert 1
+- 1 < 5, so insert as 5's red right child
+
+```plaintext
+            20(B)
+           /    \
+         10(B)  25(B) 
+         /  \
+      5(R)  15(R)
+       /
+     1(R) 
+```
+
+- Red Child with Red Parent? VIOLATION
+  - Recolor 5 and 15 to black
+
+```plaintext
+            20(B)
+           /    \
+         10(B)  25(B) 
+         /  \
+      5(B)  15(B)
+       /
+     1(R) 
+```
+
 ### Insert 30
 ### Insert 40
 ### Insert 45
