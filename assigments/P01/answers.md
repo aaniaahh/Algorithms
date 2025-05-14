@@ -9,11 +9,26 @@ Let R = Red and B = Black
 20(B)
 ```
 ### Insert 15
-- 15 < 20, so it'll be a left node
+- 15 < 20, insert as a red left child
 
 ```plaintext
       20(B)
      /
    15(R)
-
 ```
+
+### Insert 25
+- 25 > 20, insert as red right child
+
+```plaintext
+      20(B)
+     /    \
+   15(R)  25(B)
+```
+
+### Insert 10
+### Insert 5
+### Insert 1
+### Insert 30
+### Insert 40
+### Insert 45
