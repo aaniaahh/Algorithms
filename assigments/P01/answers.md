@@ -3,6 +3,6 @@
 Let R = Red and B = Black
 
 ### Insert 20
-```css
+```plaintext
 20(B)
 ```
