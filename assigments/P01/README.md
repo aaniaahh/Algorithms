@@ -19,4 +19,4 @@ Things to look out for:
 - Possible Left and Right Rotations
 - Possible Left or Right-leaning Insertions
 
-CLick [here]() to follow along for the answer.
+CLick [here](https://github.com/aaniaahh/Algorithms/blob/main/assigments/P01/answers.md) to follow along for the answer.
