@@ -16,7 +16,9 @@ You will need
 
 Things to look out for:
 - Possible Recoloring
+- Root must always be black
 - Possible Left and Right Rotations
+- Red child always under Black Parent
 - Possible Left or Right-leaning Insertions
 
 CLick [here](https://github.com/aaniaahh/Algorithms/blob/main/assigments/P01/answers.md) to follow along for the answer.

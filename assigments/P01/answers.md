@@ -23,10 +23,37 @@ Let R = Red and B = Black
 ```plaintext
       20(B)
      /    \
-   15(R)  25(B)
+   15(R)  25(R)
+```
+
+- Both children are red so recolor 15 and 25 to black
+- Recolor 20 to red
+
+```plaintext
+      20(R)
+     /    \
+   15(B)  25(B)
+```
+
+- Root is always black so recolor 20 back to black.
+
+```plaintext
+      20(B)
+     /    \
+   15(B)  25(B)
 ```
 
 ### Insert 10
+- 10 < 15, so insert as 15's red left child
+
+```plaintext
+          20(B)
+         /    \
+       15(B)  25(B)
+       /
+      10(R) 
+```
+
 ### Insert 5
 ### Insert 1
 ### Insert 30
