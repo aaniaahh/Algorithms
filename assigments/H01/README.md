@@ -135,11 +135,4 @@ This example will be performing Multiple Rotations in Different Branches.
 
 Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/assignments/H01/set2.md)
 
-## Set 3
-This example will be performing Alternating Insertions Causing Frequent Rebalancing.
-
-- Insert the following values in order:
-100, 90, 110, 80, 95, 85, 105, 120, 102, 108
-
-Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/assignments/H01/set3.md)
 
