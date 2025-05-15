@@ -16,10 +16,11 @@ You will need
 
 Violations to look out for:
 - Possible recoloring
-- All leafs must be black
+- All leafs (Null or NIL) must be black
 - Root must always be black
 - Possible Left and Right Rotations
 - Red child always under Black Parent
 - Possible Left or Right-leaning Insertions
 
-CLick [here](https://github.com/aaniaahh/Algorithms/blob/main/assigments/P01/answers.md) to follow along for the answer.
+**Answers**
+Click [here](https://github.com/aaniaahh/Algorithms/blob/main/assigments/P01/answers.md) for the key.
