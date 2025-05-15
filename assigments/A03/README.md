@@ -31,5 +31,5 @@ recursion simplifies the code but may cause stack overflow in deep trees.
 - Update the root pointer if the deleted node is the root of the tree.
 
 Following these guidelines ensures a correct and efficient deletion operation in a BST.
-Here is an example of adding [deletion](https://github.com/aaniaahh/Algorithms/blob/main/A03/main.cpp) 
+Here is an example of adding [deletion](https://github.com/aaniaahh/Algorithms/blob/main/assigments/A03/main.cpp) 
 to a given code.
