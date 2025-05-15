@@ -22,5 +22,6 @@ Violations to look out for:
 - Red child always under Black Parent
 - Possible Left or Right-leaning Insertions
 
-**Answers**
+**Answers:**
+
 Click [here](https://github.com/aaniaahh/Algorithms/blob/main/assigments/P01/answers.md) for the key.
