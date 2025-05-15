@@ -26,7 +26,7 @@ Let R = Red and B = Black
    15(R)  25(R)
 ```
 
-- Leafs are red? VIOLATION!
+- Leafs are red? **VIOLATION!**
   - Recolor 15 and 25 to black
   - Recolor 20 to red
 
@@ -36,7 +36,7 @@ Let R = Red and B = Black
    15(B)  25(B)
 ```
 
-- Root is red? VIOLATION!
+- Root is red? **VIOLATION!**
   - Recolor 20 back to black.
 
 ```plaintext
@@ -69,7 +69,7 @@ Let R = Red and B = Black
      5(R)
 ```
 
-- Heavy Left? VIOLATION!
+- Heavy Left? **VIOLATION!**
   - Left Rotation Needed
 
 ```plaintext
@@ -80,7 +80,7 @@ Let R = Red and B = Black
       5(R)  15(B)
 ```
 
-- Red Child with Red Parent? VIOLATION
+- Red Child with Red Parent? **VIOLATION!**
   - Recolor 10 to black
   - Recolor 15 to red
 
@@ -105,7 +105,7 @@ Let R = Red and B = Black
      1(R) 
 ```
 
-- Red Child with Red Parent? VIOLATION
+- Red Child with Red Parent? **VIOLATION!**
   - Recolor 5 and 15 to black
   - Recolor 10 to red
 
@@ -144,7 +144,7 @@ Let R = Red and B = Black
         /                  \
      1(R)                  35(R)
 ```
-- Heavy Right? VIOLATION!
+- Heavy Right? **VIOLATION!**
   - Right Rotation Needed
 
 ```plaintext
@@ -157,7 +157,7 @@ Let R = Red and B = Black
      1(R)                 
 ```
 
-- Red Child with Red Parent? VIOLATION!
+- Red Child with Red Parent? **VIOLATION!**
   - Recolor 30 to Black
   - Recolor 25 to Red
 
@@ -184,7 +184,7 @@ Let R = Red and B = Black
      1(R)                     40(R)
 ```
 
-- Red Child with Red Parent? VIOLATION!
+- Red Child with Red Parent? **VIOLATION!**
   - Recolor 35 to Black
   - Recolor 25 to Black
   - Recolor 30 to Red
@@ -214,7 +214,7 @@ Let R = Red and B = Black
                                   45(R)
 ```
 
-- Heavy Right? VIOLATION!
+- Heavy Right? **VIOLATION!**
   - Right Rotation Needed
 
 ```plaintext
@@ -227,7 +227,7 @@ Let R = Red and B = Black
      1(R)                35(B)   45(R)
 ```
 
-- Red Child with Red Parent? VIOLATION!
+- Red Child with Red Parent? **VIOLATION!**
   - Recolor 40 to Black
   - Recolor 35 to Red
 
