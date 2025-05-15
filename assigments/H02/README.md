@@ -9,7 +9,7 @@ called a **hash**.
 - **Collision:** When a hash function returns the same key for multiple distinct input items. 
   - *The goal is to avoid this, but it is mostly unavoidable*
 
-- [**Collision Resolution:**](https://github.com/aaniaahh/Algorithms/blob/main/H02/colliresol.md) A way of handling collisions. 
+- [**Collision Resolution:**](https://github.com/aaniaahh/Algorithms/blob/main/assignments/H02/colliresol.md) A way of handling collisions. 
   - **Open (chaining)** places the hashed value in a list **pointed to** by the hash table.
   - **Closed (open addressing)** places the hashed value **in** the hash table.
 
@@ -41,7 +41,7 @@ Given the following set of keys: 5, 22, 17, 18, 35, 101, 16, 0, 8
 
   v. Identify any buckets with collisions and note how many elements are stored in each.
 
-Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/exercise1.md)
+Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/assignments/H02/exercise1.md)
 
 ### Exercise 2: Closed Hashing (Open Addressing)
 Given the following set of keys: 5, 22, 17, 18, 35, 101, 16, 0, 8
@@ -58,7 +58,7 @@ Given the following set of keys: 5, 22, 17, 18, 35, 101, 16, 0, 8
 
   v. Discuss any clustering effects you observe.
 
-Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/exercise2.md)
+Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/assignments/H02/exercise2.md)
 
 ### Exercise 3: Impact of Poor Table Sizes
 Given the following set of keys: 5, 10, 15, 20, 25, 30, 35, 40
@@ -72,4 +72,4 @@ Given the following set of keys: 5, 10, 15, 20, 25, 30, 35, 40
 
   iii. Compare the distribution of keys and discuss which table size appears to offer a more uniform distribution and why.
 
-Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/H02/exercise3.md)
+Steps and Answer Key [here](https://github.com/aaniaahh/Algorithms/blob/main/assignments/H02/exercise3.md)
